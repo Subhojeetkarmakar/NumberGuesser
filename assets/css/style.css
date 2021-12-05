@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+#input {
+    width: 20%;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+#submit {
+    width: 5%;
+    padding: 10px;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(180, 140, 218);
+    border: 2px solid black;
+    border-radius: 25px;
+    color: white;
+    outline: none;
+}
+
+#submit:hover {
+    background-color: rgb(144, 123, 184);
+    transition: 0.5s ease-in-out;
+    border-radius: 25px;
+    outline: none;
+}
+
+#submit::after {
+    border-radius: 25px;
+}
